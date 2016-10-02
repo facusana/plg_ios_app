@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A294a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashlogo" translatesAutoresizingMaskIntoConstraints="NO" id="azV-Xc-xhH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="azV-Xc-xhH" secondAttribute="height" multiplier="1:1" id="1Qg-Es-GgI"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O6i-Sd-FzJ">
+                                <rect key="frame" x="230" y="530" width="140" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmi-fF-B9u">
+                                        <rect key="frame" x="0.0" y="14.5" width="90" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="mVW-Hk-Wh5"/>
+                                            <constraint firstAttribute="height" constant="21" id="nCv-aY-c9E"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="altonono_logo" translatesAutoresizingMaskIntoConstraints="NO" id="1MF-Ch-yVo">
+                                        <rect key="frame" x="90" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="1MF-Ch-yVo" secondAttribute="height" multiplier="1:1" id="WPY-ce-kqQ"/>
+                                            <constraint firstAttribute="width" constant="50" id="uuS-ST-pIM"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2196078431372549" green="0.31764705882352939" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="azV-Xc-xhH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2ZH-6l-cEi"/>
+                            <constraint firstItem="azV-Xc-xhH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Su8-1b-0Tb"/>
+                            <constraint firstItem="O6i-Sd-FzJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TAe-rg-AIF"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="O6i-Sd-FzJ" secondAttribute="bottom" id="iUC-Q3-R5h"/>
+                            <constraint firstAttribute="bottom" secondItem="O6i-Sd-FzJ" secondAttribute="bottom" constant="20" symbolic="YES" id="sYh-jy-6c0"/>
+                            <constraint firstItem="azV-Xc-xhH" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="xum-eQ-aLW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iUC-Q3-R5h"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="altonono_logo" width="150" height="150"/>
+        <image name="splashlogo" width="800" height="800"/>
+    </resources>
+</document>

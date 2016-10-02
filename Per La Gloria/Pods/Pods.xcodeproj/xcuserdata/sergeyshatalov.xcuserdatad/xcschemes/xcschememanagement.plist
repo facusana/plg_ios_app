@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>M13ProgressSuite.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Per La Gloria.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SideMenu-SideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6DF7A376E8FC692CE37327421DC57C94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7825CBAD8E4E1B12BEA3A249D114CBEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8446827B7BF469F9A3B31BB25B6FC24F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5DF48B1B899986C77E08C9DC2D118A2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F5FE7043DCD5223A6455BE9B2049A92A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3418AF3A1D590C9F0014ED2C /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF391D590C9F0014ED2C /* Customer.m */; };
+		3418AF3D1D590CE20014ED2C /* Division.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF3C1D590CE20014ED2C /* Division.m */; };
+		3418AF401D590CF80014ED2C /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF3F1D590CF80014ED2C /* Team.m */; };
+		3418AF431D590F630014ED2C /* FixtureDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF421D590F630014ED2C /* FixtureDate.m */; };
+		3418AF461D590F920014ED2C /* FixtureMatchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF451D590F920014ED2C /* FixtureMatchInfo.m */; };
+		3418AF491D5914BD0014ED2C /* APIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF481D5914BD0014ED2C /* APIRequestManager.m */; };
+		3418AF4C1D5917240014ED2C /* Tactic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF4B1D5917240014ED2C /* Tactic.m */; };
+		3418AF4F1D591A760014ED2C /* Tournament.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF4E1D591A760014ED2C /* Tournament.m */; };
+		3418AF561D5A58070014ED2C /* TeamSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF551D5A58070014ED2C /* TeamSelectionTableViewCell.m */; };
+		3418AF5F1D5A8A200014ED2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3418AF5E1D5A8A200014ED2C /* LaunchScreen.storyboard */; };
+		3418AF611D5A8A320014ED2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3418AF601D5A8A320014ED2C /* Main.storyboard */; };
+		3418AF641D5AA9630014ED2C /* TeamSelectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3418AF631D5AA9630014ED2C /* TeamSelectionItem.m */; };
+		341B0FA31D5F856200E4AC43 /* FixtureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B0FA21D5F856200E4AC43 /* FixtureViewController.m */; };
+		341B0FA61D60BA6400E4AC43 /* GoleadoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B0FA51D60BA6400E4AC43 /* GoleadoresViewController.m */; };
+		341B0FA91D60BACC00E4AC43 /* GoleadoresCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B0FA81D60BACC00E4AC43 /* GoleadoresCell.m */; };
+		3468C3771D5E3328006A63F1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3468C3761D5E3328006A63F1 /* MapViewController.m */; };
+		34C60E5C1D60C9CD00D1B5C1 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C60E5B1D60C9CD00D1B5C1 /* MenuTableViewController.m */; };
+		34C60E5F1D60D1C600D1B5C1 /* webViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C60E5E1D60D1C600D1B5C1 /* webViewViewController.m */; };
+		34CBE5061D578F310026644E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE5051D578F310026644E /* main.m */; };
+		34CBE5091D578F310026644E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE5081D578F310026644E /* AppDelegate.m */; };
+		34CBE5111D578F310026644E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CBE5101D578F310026644E /* Assets.xcassets */; };
+		34CBE51D1D57D5FF0026644E /* TeamSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CBE51C1D57D5FF0026644E /* TeamSelectionViewController.m */; };
+		34F008AB1D60F37A007DB07E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F008AA1D60F37A007DB07E /* Player.m */; };
+		34F008AE1D610389007DB07E /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F008AD1D610389007DB07E /* TabBarController.m */; };
+		69F13A7E0B660E929F40538B /* Pods_Per_La_Gloria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78401E94F7ABEB5FE9DAFF1F /* Pods_Per_La_Gloria.framework */; };
+		954D91181D5B7EC00041FE64 /* StatisticsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 954D91171D5B7EC00041FE64 /* StatisticsCell.m */; };
+		954D911D1D5BA5480041FE64 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954D911C1D5BA5480041FE64 /* StatisticsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3418AF341D58DA8A0014ED2C /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticsViewController.h; path = ViewControllers/StatisticsViewController.h; sourceTree = "<group>"; };
+		3418AF381D590C9F0014ED2C /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Customer.h; path = Model/Customer.h; sourceTree = "<group>"; };
+		3418AF391D590C9F0014ED2C /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Customer.m; path = Model/Customer.m; sourceTree = "<group>"; };
+		3418AF3B1D590CE20014ED2C /* Division.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Division.h; path = Model/Division.h; sourceTree = "<group>"; };
+		3418AF3C1D590CE20014ED2C /* Division.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Division.m; path = Model/Division.m; sourceTree = "<group>"; };
+		3418AF3E1D590CF80014ED2C /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = Model/Team.h; sourceTree = "<group>"; };
+		3418AF3F1D590CF80014ED2C /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Team.m; path = Model/Team.m; sourceTree = "<group>"; };
+		3418AF411D590F630014ED2C /* FixtureDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixtureDate.h; path = Model/FixtureDate.h; sourceTree = "<group>"; };
+		3418AF421D590F630014ED2C /* FixtureDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FixtureDate.m; path = Model/FixtureDate.m; sourceTree = "<group>"; };
+		3418AF441D590F920014ED2C /* FixtureMatchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixtureMatchInfo.h; path = Model/FixtureMatchInfo.h; sourceTree = "<group>"; };
+		3418AF451D590F920014ED2C /* FixtureMatchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FixtureMatchInfo.m; path = Model/FixtureMatchInfo.m; sourceTree = "<group>"; };
+		3418AF471D5914BD0014ED2C /* APIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestManager.h; sourceTree = "<group>"; };
+		3418AF481D5914BD0014ED2C /* APIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequestManager.m; sourceTree = "<group>"; };
+		3418AF4A1D5917240014ED2C /* Tactic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tactic.h; path = Model/Tactic.h; sourceTree = "<group>"; };
+		3418AF4B1D5917240014ED2C /* Tactic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tactic.m; path = Model/Tactic.m; sourceTree = "<group>"; };
+		3418AF4D1D591A760014ED2C /* Tournament.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tournament.h; path = Model/Tournament.h; sourceTree = "<group>"; };
+		3418AF4E1D591A760014ED2C /* Tournament.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tournament.m; path = Model/Tournament.m; sourceTree = "<group>"; };
+		3418AF541D5A58070014ED2C /* TeamSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamSelectionTableViewCell.h; path = Cells/TeamSelectionTableViewCell.h; sourceTree = "<group>"; };
+		3418AF551D5A58070014ED2C /* TeamSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamSelectionTableViewCell.m; path = Cells/TeamSelectionTableViewCell.m; sourceTree = "<group>"; };
+		3418AF5E1D5A8A200014ED2C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3418AF601D5A8A320014ED2C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3418AF621D5AA9630014ED2C /* TeamSelectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamSelectionItem.h; path = Model/TeamSelectionItem.h; sourceTree = "<group>"; };
+		3418AF631D5AA9630014ED2C /* TeamSelectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamSelectionItem.m; path = Model/TeamSelectionItem.m; sourceTree = "<group>"; };
+		341B0FA11D5F856200E4AC43 /* FixtureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixtureViewController.h; path = ViewControllers/FixtureViewController.h; sourceTree = "<group>"; };
+		341B0FA21D5F856200E4AC43 /* FixtureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FixtureViewController.m; path = ViewControllers/FixtureViewController.m; sourceTree = "<group>"; };
+		341B0FA41D60BA6400E4AC43 /* GoleadoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoleadoresViewController.h; path = ViewControllers/GoleadoresViewController.h; sourceTree = "<group>"; };
+		341B0FA51D60BA6400E4AC43 /* GoleadoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoleadoresViewController.m; path = ViewControllers/GoleadoresViewController.m; sourceTree = "<group>"; };
+		341B0FA71D60BACC00E4AC43 /* GoleadoresCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoleadoresCell.h; path = Cells/GoleadoresCell.h; sourceTree = "<group>"; };
+		341B0FA81D60BACC00E4AC43 /* GoleadoresCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoleadoresCell.m; path = Cells/GoleadoresCell.m; sourceTree = "<group>"; };
+		3468C3751D5E3328006A63F1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ViewControllers/MapViewController.h; sourceTree = "<group>"; };
+		3468C3761D5E3328006A63F1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ViewControllers/MapViewController.m; sourceTree = "<group>"; };
+		34C60E5A1D60C9CD00D1B5C1 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTableViewController.h; path = ViewControllers/MenuTableViewController.h; sourceTree = "<group>"; };
+		34C60E5B1D60C9CD00D1B5C1 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTableViewController.m; path = ViewControllers/MenuTableViewController.m; sourceTree = "<group>"; };
+		34C60E5D1D60D1C600D1B5C1 /* webViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webViewViewController.h; path = ViewControllers/webViewViewController.h; sourceTree = "<group>"; };
+		34C60E5E1D60D1C600D1B5C1 /* webViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webViewViewController.m; path = ViewControllers/webViewViewController.m; sourceTree = "<group>"; };
+		34CBE5011D578F310026644E /* Per La Gloria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Per La Gloria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CBE5051D578F310026644E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34CBE5071D578F310026644E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34CBE5081D578F310026644E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34CBE5101D578F310026644E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CBE5151D578F310026644E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34CBE51B1D57D5FF0026644E /* TeamSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamSelectionViewController.h; path = ViewControllers/TeamSelectionViewController.h; sourceTree = "<group>"; };
+		34CBE51C1D57D5FF0026644E /* TeamSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TeamSelectionViewController.m; path = ViewControllers/TeamSelectionViewController.m; sourceTree = "<group>"; };
+		34F008A91D60F37A007DB07E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Model/Player.h; sourceTree = "<group>"; };
+		34F008AA1D60F37A007DB07E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Model/Player.m; sourceTree = "<group>"; };
+		34F008AC1D610389007DB07E /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ViewControllers/TabBarController.h; sourceTree = "<group>"; };
+		34F008AD1D610389007DB07E /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ViewControllers/TabBarController.m; sourceTree = "<group>"; };
+		518B61E651007911E3C834B9 /* Pods-Per La Gloria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Per La Gloria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria.release.xcconfig"; sourceTree = "<group>"; };
+		78401E94F7ABEB5FE9DAFF1F /* Pods_Per_La_Gloria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Per_La_Gloria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1B6D4AAD857014E8685179 /* Pods-Per La Gloria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Per La Gloria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria.debug.xcconfig"; sourceTree = "<group>"; };
+		954D91161D5B7EC00041FE64 /* StatisticsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticsCell.h; path = Cells/StatisticsCell.h; sourceTree = "<group>"; };
+		954D91171D5B7EC00041FE64 /* StatisticsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsCell.m; path = Cells/StatisticsCell.m; sourceTree = "<group>"; };
+		954D911C1D5BA5480041FE64 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticsViewController.m; path = ViewControllers/StatisticsViewController.m; sourceTree = "<group>"; };
+		EEB0D3F37E1481ADD2999350 /* Pods-Per La Glory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Per La Glory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Per La Glory/Pods-Per La Glory.debug.xcconfig"; sourceTree = "<group>"; };
+		F87E54102698E1D50F29D79A /* Pods-Per La Glory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Per La Glory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Per La Glory/Pods-Per La Glory.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CBE4FE1D578F310026644E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F13A7E0B660E929F40538B /* Pods_Per_La_Gloria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BFF7628F7332B1C7CD687A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0D3F37E1481ADD2999350 /* Pods-Per La Glory.debug.xcconfig */,
+				F87E54102698E1D50F29D79A /* Pods-Per La Glory.release.xcconfig */,
+				8A1B6D4AAD857014E8685179 /* Pods-Per La Gloria.debug.xcconfig */,
+				518B61E651007911E3C834B9 /* Pods-Per La Gloria.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3418AF371D5904420014ED2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3418AF471D5914BD0014ED2C /* APIRequestManager.h */,
+				3418AF481D5914BD0014ED2C /* APIRequestManager.m */,
+				3418AF621D5AA9630014ED2C /* TeamSelectionItem.h */,
+				3418AF631D5AA9630014ED2C /* TeamSelectionItem.m */,
+				3418AF381D590C9F0014ED2C /* Customer.h */,
+				3418AF391D590C9F0014ED2C /* Customer.m */,
+				3418AF3B1D590CE20014ED2C /* Division.h */,
+				3418AF3C1D590CE20014ED2C /* Division.m */,
+				3418AF3E1D590CF80014ED2C /* Team.h */,
+				3418AF3F1D590CF80014ED2C /* Team.m */,
+				3418AF4D1D591A760014ED2C /* Tournament.h */,
+				3418AF4E1D591A760014ED2C /* Tournament.m */,
+				3418AF4A1D5917240014ED2C /* Tactic.h */,
+				3418AF4B1D5917240014ED2C /* Tactic.m */,
+				3418AF411D590F630014ED2C /* FixtureDate.h */,
+				3418AF421D590F630014ED2C /* FixtureDate.m */,
+				3418AF441D590F920014ED2C /* FixtureMatchInfo.h */,
+				3418AF451D590F920014ED2C /* FixtureMatchInfo.m */,
+				34F008A91D60F37A007DB07E /* Player.h */,
+				34F008AA1D60F37A007DB07E /* Player.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3418AF501D5A57AA0014ED2C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3418AF541D5A58070014ED2C /* TeamSelectionTableViewCell.h */,
+				3418AF551D5A58070014ED2C /* TeamSelectionTableViewCell.m */,
+				954D91161D5B7EC00041FE64 /* StatisticsCell.h */,
+				954D91171D5B7EC00041FE64 /* StatisticsCell.m */,
+				341B0FA71D60BACC00E4AC43 /* GoleadoresCell.h */,
+				341B0FA81D60BACC00E4AC43 /* GoleadoresCell.m */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		34CBE4F81D578F310026644E = {
+			isa = PBXGroup;
+			children = (
+				34CBE5031D578F310026644E /* Per La Gloria */,
+				34CBE5021D578F310026644E /* Products */,
+				27BFF7628F7332B1C7CD687A /* Pods */,
+				8947F9F0155DBAF3D5835CFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34CBE5021D578F310026644E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CBE5011D578F310026644E /* Per La Gloria.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CBE5031D578F310026644E /* Per La Gloria */ = {
+			isa = PBXGroup;
+			children = (
+				3418AF5E1D5A8A200014ED2C /* LaunchScreen.storyboard */,
+				3418AF601D5A8A320014ED2C /* Main.storyboard */,
+				34CBE51E1D57D60A0026644E /* ViewControllers */,
+				3418AF501D5A57AA0014ED2C /* Cells */,
+				3418AF371D5904420014ED2C /* Model */,
+				34CBE5041D578F310026644E /* Supporting Files */,
+			);
+			name = "Per La Gloria";
+			path = "Per La Glory";
+			sourceTree = "<group>";
+		};
+		34CBE5041D578F310026644E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34CBE5071D578F310026644E /* AppDelegate.h */,
+				34CBE5081D578F310026644E /* AppDelegate.m */,
+				34CBE5101D578F310026644E /* Assets.xcassets */,
+				34CBE5151D578F310026644E /* Info.plist */,
+				34CBE5051D578F310026644E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34CBE51E1D57D60A0026644E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				34CBE51B1D57D5FF0026644E /* TeamSelectionViewController.h */,
+				34CBE51C1D57D5FF0026644E /* TeamSelectionViewController.m */,
+				3418AF341D58DA8A0014ED2C /* StatisticsViewController.h */,
+				954D911C1D5BA5480041FE64 /* StatisticsViewController.m */,
+				3468C3751D5E3328006A63F1 /* MapViewController.h */,
+				3468C3761D5E3328006A63F1 /* MapViewController.m */,
+				341B0FA11D5F856200E4AC43 /* FixtureViewController.h */,
+				341B0FA21D5F856200E4AC43 /* FixtureViewController.m */,
+				341B0FA41D60BA6400E4AC43 /* GoleadoresViewController.h */,
+				341B0FA51D60BA6400E4AC43 /* GoleadoresViewController.m */,
+				34C60E5A1D60C9CD00D1B5C1 /* MenuTableViewController.h */,
+				34C60E5B1D60C9CD00D1B5C1 /* MenuTableViewController.m */,
+				34C60E5D1D60D1C600D1B5C1 /* webViewViewController.h */,
+				34C60E5E1D60D1C600D1B5C1 /* webViewViewController.m */,
+				34F008AC1D610389007DB07E /* TabBarController.h */,
+				34F008AD1D610389007DB07E /* TabBarController.m */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8947F9F0155DBAF3D5835CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78401E94F7ABEB5FE9DAFF1F /* Pods_Per_La_Gloria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CBE5001D578F310026644E /* Per La Gloria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CBE5181D578F310026644E /* Build configuration list for PBXNativeTarget "Per La Gloria" */;
+			buildPhases = (
+				08D376288AE9D0B019B2B71D /* [CP] Check Pods Manifest.lock */,
+				165B7037340A3DB36D990A6B /* [CP] Check Pods Manifest.lock */,
+				34CBE4FD1D578F310026644E /* Sources */,
+				34CBE4FE1D578F310026644E /* Frameworks */,
+				34CBE4FF1D578F310026644E /* Resources */,
+				21C8088FD211C0D530529791 /* [CP] Embed Pods Frameworks */,
+				F687B49CDEA55B0649568E4E /* [CP] Copy Pods Resources */,
+				17B6CCD203CEE393BD32F146 /* 📦 Embed Pods Frameworks */,
+				4F44AB64763D7FEAA3E0A2E6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Per La Gloria";
+			productName = "Per La Glory";
+			productReference = 34CBE5011D578F310026644E /* Per La Gloria.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CBE4F91D578F310026644E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sergey Shatalov";
+				TargetAttributes = {
+					34CBE5001D578F310026644E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 295S56WGRV;
+					};
+				};
+			};
+			buildConfigurationList = 34CBE4FC1D578F310026644E /* Build configuration list for PBXProject "Per La Gloria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34CBE4F81D578F310026644E;
+			productRefGroup = 34CBE5021D578F310026644E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CBE5001D578F310026644E /* Per La Gloria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CBE4FF1D578F310026644E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3418AF611D5A8A320014ED2C /* Main.storyboard in Resources */,
+				3418AF5F1D5A8A200014ED2C /* LaunchScreen.storyboard in Resources */,
+				34CBE5111D578F310026644E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D376288AE9D0B019B2B71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		165B7037340A3DB36D990A6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17B6CCD203CEE393BD32F146 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21C8088FD211C0D530529791 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F44AB64763D7FEAA3E0A2E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F687B49CDEA55B0649568E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Per La Gloria/Pods-Per La Gloria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CBE4FD1D578F310026644E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954D911D1D5BA5480041FE64 /* StatisticsViewController.m in Sources */,
+				34CBE51D1D57D5FF0026644E /* TeamSelectionViewController.m in Sources */,
+				34CBE5091D578F310026644E /* AppDelegate.m in Sources */,
+				34F008AE1D610389007DB07E /* TabBarController.m in Sources */,
+				3418AF4C1D5917240014ED2C /* Tactic.m in Sources */,
+				34C60E5F1D60D1C600D1B5C1 /* webViewViewController.m in Sources */,
+				34C60E5C1D60C9CD00D1B5C1 /* MenuTableViewController.m in Sources */,
+				34F008AB1D60F37A007DB07E /* Player.m in Sources */,
+				34CBE5061D578F310026644E /* main.m in Sources */,
+				3418AF4F1D591A760014ED2C /* Tournament.m in Sources */,
+				341B0FA91D60BACC00E4AC43 /* GoleadoresCell.m in Sources */,
+				3418AF641D5AA9630014ED2C /* TeamSelectionItem.m in Sources */,
+				3418AF491D5914BD0014ED2C /* APIRequestManager.m in Sources */,
+				3418AF3D1D590CE20014ED2C /* Division.m in Sources */,
+				3418AF431D590F630014ED2C /* FixtureDate.m in Sources */,
+				3418AF461D590F920014ED2C /* FixtureMatchInfo.m in Sources */,
+				341B0FA61D60BA6400E4AC43 /* GoleadoresViewController.m in Sources */,
+				3468C3771D5E3328006A63F1 /* MapViewController.m in Sources */,
+				341B0FA31D5F856200E4AC43 /* FixtureViewController.m in Sources */,
+				3418AF401D590CF80014ED2C /* Team.m in Sources */,
+				3418AF3A1D590C9F0014ED2C /* Customer.m in Sources */,
+				954D91181D5B7EC00041FE64 /* StatisticsCell.m in Sources */,
+				3418AF561D5A58070014ED2C /* TeamSelectionTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34CBE5161D578F310026644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34CBE5171D578F310026644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CBE5191D578F310026644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1B6D4AAD857014E8685179 /* Pods-Per La Gloria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Per La Glory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(Inteferented)/\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/M13ProgressSuite\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facusana.Per-La-Gloria";
+				PRODUCT_NAME = "Per La Gloria";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		34CBE51A1D578F310026644E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518B61E651007911E3C834B9 /* Pods-Per La Gloria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Per La Glory/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(Inteferented)\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/M13ProgressSuite\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facusana.Per-La-Gloria";
+				PRODUCT_NAME = "Per La Gloria";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CBE4FC1D578F310026644E /* Build configuration list for PBXProject "Per La Gloria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CBE5161D578F310026644E /* Debug */,
+				34CBE5171D578F310026644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CBE5181D578F310026644E /* Build configuration list for PBXNativeTarget "Per La Gloria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CBE5191D578F310026644E /* Debug */,
+				34CBE51A1D578F310026644E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CBE4F91D578F310026644E /* Project object */;
+}
