@@ -1,2 +1,2 @@
-# plg_ios_app
-plg ios app
+# Per La Gloria IOS
+PLG ios readme.
